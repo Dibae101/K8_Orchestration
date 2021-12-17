@@ -42,6 +42,8 @@
 If you can't access the NodePort service webapp with `MinikubeIP:NodePort`, execute the following command:
     
     minikube service webapp-service
+    minikube stop
+    minikube start
 
 <br />
 
